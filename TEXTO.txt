@@ -1,0 +1,487 @@
+RectGC
+CoordOff
+GridOff
+AxesOff
+LabelOff
+ExprOn
+~47->Xmin
+47->Xmax
+5->Xscl
+~31->Ymin
+31->Ymax
+5->Yscl
+1->Xres
+ClrHome
+ClrDraw
+
+
+
+
+Text(10,17,"THE ADVENTURES OF")
+Text(56,11,"BY DANIEL MACDOUGALL")
+
+Line(~40,10,~40,7):Line(~39,10,~39,7):Line(~38,10,~38,7):Line(~37,10,~37,7):Line(~36,10,~36,7):Line(~35,10,~35,~15):Line(~34,10,~34,~15):Line(~33,10,~33,~15):Line(~32,10,~32,~15):Line(~31,10,~31,7):Line(~30,10,~30,7):Line(~29,10,~29,7):Line(~28,10,~28,7):Line(~27,10,~27,7):Line(~24,10,~24,~15):Line(~23,10,~23,~15):Line(~22,10,~22,~15):Line(~21,10,~21,~15):Line(~20,10,~20,~15):Line(~19,10,~19,~15):Line(~18,10,~18,6):Line(~18,0,~18,~4):Line(~18,~11,~18,~15):Line(~17,10,~17,6):Line(~17,0,~17,~4):Line(~17,~11,~17,~15):Line(~16,10,~16,6):Line(~16,0,~16,~4):Line(~16,~11,~16,~15):Line(~15,10,~15,6):Line(~15,0,~15,~4):Line(~15,~11,~15,~15):Line(~14,10,~14,6):Line(~14,0,~14,~4):Line(~14,~11,~14,~15):Line(~13,10,~13,6):Line(~13,0,~13,~4):Line(~13,~11,~13,~15):Line(~9,10,~9,9):Line(~9,~14,~9,~15):Line(~8,10,~8,7):Line(~8,~12,~8,~15):Line(~7,10,~7,5):Line(~7,~10,~7,~15):Line(~6,10,~6,3):Line(~6,~8,~6,~15):Line(~5,10,~5,2):Line(~5,~7,~5,~15):Line(~4,9,~4,0):Line(~4,~5,~4,~14):Line(~3,8,~3,~13):Line(~2,6,~2,~11):Line(~1,4,~1,~9):Line(0,2,0,~7):Line(1,4,1,~9):Line(2,6,2,~11):Line(3,8,3,~13):Line(4,9,4,0):Line(4,~5,4,~14):Line(5,10,5,2):Line(5,~7,5,~15):Line(6,10,6,4):Line(6,~8,6,~15):Line(7,10,7,5):Line(7,~10,7,~15):Line(8,10,8,7):Line(8,~12,8,~15):Line(9,10,9,9):Line(9,~14,9,~15):Line(12,10,12,7):Line(13,10,13,7):Line(14,10,14,7):Line(15,10,15,7):Line(16,10,16,7):Line(17,10,17,~15):Line(18,10,18,~15):Line(19,10,19,~15):Line(20,10,20,~15):Line(21,10,21,7):Line(22,10,22,7):Line(23,10,23,7):Line(24,10,24,7):Line(25,10,25,7):Line(28,~1,28,~5):Line(29,4,29,~10):Line(30,6,30,~12):Line(31,8,31,~13):Line(32,9,32,0):Line(32,~5,32,~14):Line(33,10,33,2):Line(33,~7,33,~15):Line(34,10,34,2):Line(34,~7,34,~15):Line(35,10,35,2:Line(35,~7,35,~15):Line(36,9,36,0):Line(36,~5,36,~14):Line(37,8,37,~13):Line(38,6,38,~12):Line(39,4,39,~10):Line(40,~1,40,~5):
+
+Pause
+Goto Y
+
+Lbl X
+Pt-On(~30,25):Pt-On(~14,25):Line(~30,24,~23,17):Line(~14,24,~21,17):Line(~22,16,~22,5):Line(~8,22,~8,8):Line(~7,23,~6,24):Line(~7,7,~6,6):Line(~5,25,5,25):Line(~5,5,5,5):Line(6,24,7,23):Line(6,6,7,7):Line(8,22,8,8):Line(14,25,14,8):Line(15,7,16,6):Line(17,5,27,5):Line(28,6,29,7):Line(30,25,30,8):Line(~30,~5,~30,~22):Line(~29,~23,~28,~24):Line(~27,~25,~24,~25):Pt-On(~23,~24):Pt-On(~21,~24):Line(~22,~15,~22,~23):Line(~20,~25,~17,~25):Line(~16,~24,~15,~23):Line(~14,~22,~14,~5):Line(0,~6,0,~24):Line(~8,~5,8,~5):Line(~8,~25,8,~25):Line(14,~25,14,~5):Line(15,~5,29,~25):Line(30,~25,30,~5):Horizontal 0:Horizontal 1:Horizontal ~1:Vertical ~47:Vertical 47:Vertical ~46:Vertical 46:Vertical ~45:Vertical 45:Vertical ~44:Vertical 44:Vertical ~43:Vertical 43:Vertical ~42:Vertical 42:Vertical ~41:Vertical 41:Vertical ~40:Vertical 40:Vertical ~39:Vertical 39:Vertical ~38:Vertical 38:Vertical ~37:Vertical 37:Vertical ~36:Vertical 36:Vertical ~35:Vertical 35:Vertical ~34:Vertical 34:Horizontal 31:Horizontal ~31:Horizontal 30:Horizontal ~30:Horizontal 29:Horizontal ~29:Pt-On(~33,28):Pt-On(33,28):Pt-On(33,~28):Pt-On(~33,~28)
+Pause
+ClrHome
+Stop
+
+Lbl theta
+Horizontal 31:Horizontal 30:Horizontal 29:Horizontal 28:Horizontal 27:Horizontal 26:Horizontal 25:Horizontal 24:Horizontal 23:Horizontal 22:Horizontal 21:Line(~47,20,~36,20):Line(~28,20,28,20):Line(41,20,47,20):Line(~47,19,~39,19):Line(~25,19,~12,19):Line(~7,19,6,19):Line(14,19,16,19):Line(24,19,28,19):Line(42,19,47,19):Line(~47,18,~40,18):Line(~24,18,~13,18):Line(~6,18,6,18):Line(14,18,16,18):Line(24,18,28,18):Line(42,18,47,18):Line(~47,17,~41,17):Line(~24,17,~14,17):Line(~5,17,6,17):Line(14,17,16,17):Line(24,17,28,17):Line(41,17,47,17):Line(~47,16,~42,16):Line(~35,16,~31,16):Line(~25,16,~14,16):Line(~5,16,6,16):Line(14,16,16,16):Line(24,16,28,16):Line(33,16,47,16):Line(~47,15,~42,15):Line(~36,15,~15,15):Line(~4,15,6,15):Line(14,15,16,15):Line(24,15,28,15):Line(33,15,47,15):Line(~47,14,~42,14):Line(~36,14,~16,14):Line(~10,14,~9,14):Line(~3,14,5,14):Pt-On(15,14):Line(25,14,28,14):Line(38,14,47,14):Line(~47,13,~42,13):Line(~36,13,~33,13):Line(~25,13,~17,13):Line(~11,13,~8,13):Line(~2,13,5,13):Pt-On(15,13):Line(25,13,28,13):Line(39,13,47,13):Line(~47,12,~42,12):Line(~36,12,~34,12):Line(~24,12,~17,12):Line(~12,12,~7,12):Line(~2,12,5,12):Pt-On(15,12):Line(25,12,28,12):Line(39,12,47,12):Line(~47,11,~42,11):Line(~36,11,~34,11):Line(~24,11,~18,11):Line(~12,11,~7,11):Line(~1,11,5,11):Pt-On(15,11):Line(25,11,28,11):Line(38,11,47,11):Line(~47,10,~42,10):Line(~35,10,~33,10):Line(~24,10,~19,10):Line(0,10,5,10):Pt-On(10,10):Pt-On(20,10):Line(25,10,28,10):Line(33,10,47,10):Line(~47,9,~41,9):Line(~34,9,~28,9):Line(~24,9,~20,9):Line(1,9,4,9):Line(10,9,11,9):Line(19,9,20,9):Line(26,9,28,9):Line(33,9,47,9):Line(~47,8,~41,8):Line(~24,8,~20,8):Line(1,8,4,8):Line(10,8,11,8):Line(19,8,20,8):Line(26,8,28,8):Line(41,8,47,8):Line(~47,7,~41,7):Line(~24,7,~21,7):Line(~14,7,~5,7):Line(2,7,4,7):Line(10,7,11,7):Line(19,7,20,7):Line(26,7,28,7):Line(42,7,47,7):Line(~47,6,~40,6):Line(~25,6,~22,6):Line(~15,6,~4,6):Line(3,6,4,6):Line(10,6,12,6):Line(18,6,20,6):Line(26,6,28,6):Line(42,6,47,6):Line(~47,5,~38,5):Line(~30,5,~22,5):Line(~15,5,~4,5):Line(3,5,4,5):Line(10,5,12,5):Line(18,5,20,5):Line(26,5,28,5):Line(41,5,47,5):Horizontal 4:Horizontal 3:Horizontal 2:Horizontal 1:Horizontal 0:Horizontal ~1:Horizontal ~2:Horizontal ~3:Horizontal ~4:Line(~47,~5,~37,~5):Line(~29,~5,~22,~5):Line(~15,~5,~4,~5):Line(3,~5,5,~5):Line(18,~5,21,~5):Line(35,~5,47,~5):Line(~47,~6,~38,~6):Line(~28,~6,~22,~6):Line(~15,~6,~4,~6):Line(3,~6,5,~6):Line(19,~6,21,~6):Line(39,~6,47,~6):Line(~47,~7,~39,~7):Line(~27,~7,~21,~7):Line(~14,~7,~5,~7):Line(2,~7,5,~7):Line(19,~7,21,~7):Line(41,~7,47,~7):Line(~47,~8,~40,~8):Line(~26,~8,~20,~8):Line(~14,~8,~5,~8):Line(1,~8,5,~8):Line(18,~8,21,~8):Line(42,~8,47,~8):Line(~47,~9,~40,~9):Line(~26,~9,~20,~9):Line(~13,~9,~6,~9):Line(1,~9,5,~9):Line(10,~9,21,~9):Line(27,~9,33,~9):Line(42,~9,47,~9):Line(~47,~10,~41,~10):Line(~25,~10,~19,~10):Line(~13,~10,~6,~10):Line(0,~10,5,~10):Line(10,~10,21,~10):Line(27,~10,34,~10):Line(42,~10,47,~10):Line(~47,~11,~42,~11):Line(~34,~11,~32,~11):Line(~24,~11,~18,~11):Line(~12,~11,~6,~11):Line(~1,~11,5,~11):Line(15,~11,21,~11):Line(27,~11,33,~11):Line(42,~11,47,~11):Line(~47,~12,~42,~12):Line(~35,~12,~31,~12):Line(~24,~12,~17,~12):Line(~12,~12,~7,~12):Line(~2,~12,5,~12):Line(16,~12,21,~12):Line(42,~12,47,~12):Line(~47,~13,~42,~13):Line(~35,~13,~31,~13):Line(~24,~13,~17,~13):Line(~11,~13,~8,~13):Line(~2,~13,5,~13):Line(16,~13,21,~13):Line(41,~13,47,~13):Line(~47,~14,~42,~14):Line(~35,~14,~31,~14):Line(~24,~14,~16,~14):Line(~3,~14,5,~14):Line(15,~14,21,~14):Line(39,~14,47,~14):Line(~47,~15,~42,~15):Line(~34,~15,~32,~15):Line(~24,~15,~15,~15):Line(~4,~15,5,~15):Line(10,~15,21,~15):Line(40,~15,47,~15):Line(~47,~16,~41,~16):Line(~25,~16,~14,~16):Line(~5,~16,5,~16):Line(10,~16,21,~16):Line(27,~16,34,~16):Line(40,~16,47,~16):Line(~47,~17,~40,~17):Line(~26,~17,~14,~17):Line(~5,~17,5,~17):Line(18,~17,21,~17):Line(27,~17,34,~17):Line(41,~17,47,~17):Line(~47,~18,~40,~18):Line(~26,~18,~13,~18):Line(~6,~18,5,~18):Line(19,~18,21,~18):Line(27,~18,35,~18):Line(42,~18,47,~18):Line(~47,~19,~39,~19):Line(~27,~19,~12,~19):Line(~7,~19,5,~19):Line(19,~19,21,~19):Line(27,~19,35,~19):Line(42,~19,47,~19):Line(~47,~20,~38,~20):Line(~28,~20,~11,~20):Line(~8,~20,5,~20):Line(18,~20,21,~20):Line(27,~20,36,~20):Line(42,~20,47,~20):Line(~47,~21,~37,~21):Line(~29,~21,47,~21):Horizontal ~22:Horizontal ~23:Horizontal ~24:Horizontal ~25:Horizontal ~26:Horizontal ~27:Horizontal ~28:Horizontal ~29:Horizontal ~30:Horizontal ~31:
+Pause
+ClrHome
+Stop
+
+Lbl Y
+ClrHome
+ClrDraw
+Disp "YOU ARE AN"
+Disp "ADVENTURER"
+Disp "NAMED TEXTO."
+Disp ""
+Pause
+Disp "WHILE WALKING"
+Disp "ONE DAY, YOU"
+Disp "COME UPON A"
+Disp "CASTLE."
+Disp ""
+Disp "WHAT DO YOU DO?"
+Pause
+ClrHome
+
+Menu("CASTLE GATE","GO AROUND",A,"GO TO GATE",B)
+
+Lbl B
+Disp "YOU WALK UP TO"
+Disp "THE GATE. IT"
+Disp "SLOWLY OPENS BY"
+Disp "ITSELF."
+Disp "YOU ENTER."
+Pause
+
+Goto W
+
+Lbl G
+Disp "YOU DRINK SOME"
+Disp "AND.......POOF!"
+Pause
+
+Lbl W
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "YOU FIND"
+Disp "YOURSELF IN A"
+Disp "LARGE ROOM WITH"
+Disp "TWO DOORS:"
+Disp "ONE ON THE LEFT"
+Disp "AND ONE ON THE"
+Disp "RIGHT."
+Pause
+ClrHome
+
+Menu("DOORWAYS","<---GO LEFT",O,"GO RIGHT--->",P)
+
+Lbl P
+Disp "AS YOU WALK"
+Disp "THROUGH THE"
+Disp "DOORS, YOU SEE"
+Disp "A BEAUTIFUL"
+Disp "WOMAN STANDING"
+Disp "IN FRONT OF YOU."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "SHE IS"
+Disp "SURROUNDED BY A"
+Disp "VAST CACHE OF"
+Disp "TREASURE."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "SHE ASKS YOU:"
+Disp ""
+Disp "DOES ALL THIS"
+Disp "GOLD BELONG TO"
+Disp "YOU?"
+Pause
+ClrHome
+
+Menu("A CACHE OF CASH","ITS MINE!",U,"NO, ITS NOT...",V)
+
+Lbl U
+Disp "THEN TAKE IT!"
+Disp ""
+Disp "SHE SAYS."
+Disp ""
+Disp "AND LIVE HAPPILY"
+Disp "FOR THE REST OF"
+Disp "YOUR DAYS."
+Pause
+Goto X
+
+Lbl V
+Disp "THEN YOU WONT"
+Disp "MIND IF I STEAL"
+Disp "IT!"
+Disp ""
+Disp "SHE EXCLAIMS."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "THE WOMAN"
+Disp "TRANSFORMS INTO"
+Disp "A HUGE DRAGON."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "THE LAST THING"
+Disp "YOU SEE IS A"
+Disp "SMOKING TENDRIL"
+Disp "OF FLAME"
+Disp "SPIRALING"
+Disp "TOWARD YOU..."
+Pause
+Goto theta
+
+Lbl O
+Disp "YOU EMERGE IN A"
+Disp "LONG HALLWAY"
+Disp "WITH SUITS OF"
+Disp "ARMOR."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "IT STARTS TO"
+Disp "CREEP YOU OUT..."
+Pause
+ClrHome
+
+Menu("CREEPY...","WALK FAST",Q,"WALK SLOW",R)
+
+Lbl Q
+Disp "YOU START TO"
+Disp "RUN, BUT TRIP."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "AS YOU FALL,"
+Disp "YOUR ELBOW"
+Disp "BUMPS AGAINST"
+Disp "ONE OF THE"
+Disp "SUITS."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "AS YOU LIE ON"
+Disp "THE GROUND,"
+Disp "YOU SEE IT TIP,"
+Disp "AND YOU HOPE"
+Disp "THAT AXE ISNT"
+Disp "AS SHARP AS IT"
+Disp "LOOKS..."
+Pause
+Goto theta
+
+Lbl R
+Disp "EVEN THOUGH"
+Disp "YOUR SCARED ,YOU"
+Disp "WALK THROUGH THE"
+Disp "HALL AND GO"
+Disp "THROUGH THE DOOR"
+Disp "ON THE OTHER"
+Disp "SIDE."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "AHHH! THERE IS A"
+Disp "VAMPIRE IN THIS"
+Disp "ROOM!"
+Pause
+ClrHome
+
+Menu("WHERES BUFFY NOW?","FIGHT IT",S,"RUN AWAY",T)
+
+Lbl T
+Disp "YOU TRY TO"
+Disp "ESCAPE, BUT ITS"
+Disp "TOO LATE."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "AS YOU FEEL ITS"
+Disp "SHARP TEETH"
+Disp "PIERCE YOUR"
+Disp "NECK, YOU"
+Disp "REALIZE YOU WILL"
+Disp "SPEND..."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "...THE REST OF"
+Disp "YOUR LIFE, OR"
+Disp "AFTERLIFE, AS AN"
+Disp "UNDEAD MONSTER."
+Pause
+Goto theta
+
+Lbl S
+Disp "YOU PULL A"
+Disp "WOODEN STAKE"
+Disp "FROM UNDER YOUR"
+Disp "SHIRT AND IMPALE"
+Disp "IT. THAT WAS TOO"
+Disp "EASY...
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "YOU WALK THROUGH"
+Disp "THE DOOR ON THE"
+Disp "OTHER SIDE OF"
+Disp "THE ROOM."
+Pause
+Goto W
+
+Lbl A
+Disp "AS YOU ARE"
+Disp "WALKING, YOU SEE"
+Disp "A FOREST AND A"
+Disp "WELL."
+Pause
+ClrHome
+
+Menu("FOREST OR WELL?","GO TO FOREST",C,"GO DOWN WELL",D)
+
+Lbl D
+Disp "YOU DESCEND"
+Disp "INTO THE"
+Disp "DARKNESS."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "THE TUNNEL"
+Disp "FORKS UP AHEAD."
+Pause
+
+0->B
+While B<3
+	ClrHome
+
+	Menu("WHICH WAY?","LEFT",Z,"RIGHT",Z)
+
+	Lbl Z
+	Disp "ODD...YOU FEEL"
+	Disp "LIKE YOUVE BEEN"
+	Disp "HERE BEFORE..."
+	Disp "THE TUNNEL"
+	Disp "FORKS UP AHEAD."
+	Pause
+	B+1->B
+End
+
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "YOU ARE LOST IN"
+Disp "THE MAZE. YOU"
+Disp "ARE DOOMED TO"
+Disp "WANDER FOR THE"
+Disp "REST OF YOUR"
+Disp "LIFE."
+Pause
+Goto theta
+
+Lbl C
+Disp "YOU SEE A HUT IN"
+Disp "THE DISTANCE."
+Pause
+ClrHome
+
+Menu("HUT OR NOT?","ENTER THE HUT",E,"STAY ON PATH",F)
+
+Lbl F
+Disp "YOU CONTINUE"
+Disp "WALKING."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "YOU ARE STILL"
+Disp "WALKING."
+Pause
+ClrHome
+Disp "YOU SEE A DARK
+Disp "CAVE UP AHEAD."
+Pause
+ClrHome
+
+Menu("BRAVE THE CAVE?","ENTER CAVE",I,"CONTINUE ON",J)
+
+Lbl I
+Disp "INSIDE YOU FIND"
+Disp "A BEAR."
+Disp "SUDDENLY IT"
+Disp "GETS UP!"
+Pause
+ClrHome
+
+Menu("SCARY BEAR","FIGHT!",K,"RUN!",L)
+
+Lbl K
+Disp "HA HA."
+Disp "YEAH RIGHT."
+Disp "THE BEAR SWATS"
+Disp "YOU WITH ONE"
+Disp "PAW AND GOES"
+Disp "BACK TO SLEEP."
+Pause
+Goto theta
+
+Lbl L
+Disp "YOU RUN AWAY."
+Disp ""
+Disp "*COWARD*
+Disp ""
+Disp ""
+Goto F
+
+Lbl J
+Disp "YOU KEEP"
+Disp "WALKING AND COME"
+Disp "TO A LAKE."
+Disp "A BEAUTIFUL"
+Disp "WOMAN RISES OUT"
+Disp "OF THE WATER."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "SHE HOLDS UP A"
+Disp "HUGE DIAMOND,"
+Disp "AND SAYS TO YOU,"
+Disp ""
+Disp "DOES THIS"
+Disp "JEWEL BELONG"
+Disp "TO YOU?"
+Pause
+ClrHome
+
+Menu("YOUR JEWEL?","YES!",M,"NO...",N)
+
+Lbl M
+Disp "HOW DARE YOU!"
+Disp ""
+Disp "SHE EXCLAIMS."
+Disp ""
+Disp "YOU HAVE LIED TO"
+Disp "ME! YOU WILL BE"
+Disp "PUNISHED!"
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "THE WOMAN"
+Disp "TRANSFORMS INTO"
+Disp "A GIANT SERPENT."
+Disp "THE LAST THING"
+Disp "YOU SEE IS ITS"
+Disp "FANGS DRIPPING"
+Disp "WITH POISON..."
+Pause
+Goto theta
+
+Lbl N
+Disp "YOUR HONESTY IS"
+Disp "ADMIRABLE,"
+Disp ""
+Disp "SHE SAYS."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "AS A REWARD,"
+Disp "I GIVE TO YOU"
+Disp "THIS JEWEL."
+Disp "MAY YOU LIVE"
+Disp "HAPPILY FOR THE"
+Disp "REST OF YOUR"
+Disp "LIFE."
+Pause
+Goto X
+
+Lbl E
+Disp "INSIDE YOU SEE"
+Disp "AN OLD HAG."
+Disp "SHE IS COOKING"
+Disp "A LARGE POTION"
+Disp "IN A CAULDRON."
+Pause
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp ""
+Disp "SHE LOOKS UP"
+Disp "AND ASKS YOU IF"
+Disp "YOU WOULD LIKE"
+Disp "SOME OF HER"
+Disp "BREW."
+Pause
+ClrHome
+
+Menu("BREW FOR YOU?","YES PLEASE",G,"NO WAY!",H)
+
+Lbl H
+Disp "THINKING YOU"
+Disp "SAID HOORAY"
+Disp "SHE THROWS"
+Disp "SOME OF IT ON"
+Disp "YOU."
+Pause
+Disp ""
+Disp "YOU SUDDENLY"
+Disp "REALIZE THAT"
+Disp "YOU CAN NOW"
+Disp "COUNT TO ELEVEN"
+Disp "ON YOUR"
+Disp "HANDS..."
+Pause
+Goto theta
